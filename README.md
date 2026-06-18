@@ -40,18 +40,18 @@
 ### Способ 2: Ручная установка
 
 1. **Клонируйте репозиторий:**
-   git clone https://github.com/SkkroLL/shop-candidate
-   cd shop-candidate
+- git clone https://github.com/SkkroLL/shop-candidate
+- cd shop-candidate
 2. **Создайте и активируйте виртуальное окружение:**
-    python -m venv .venv
+- python -m venv .venv
     **Windows:**
-    .venv\Scripts\activate
+- .venv\Scripts\activate
     **macOS/Linux:**    
-    source .venv/bin/activate 
+- source .venv/bin/activate 
 3. **Установите зависимости:**
-    pip install -r requirements.txt
+- pip install -r requirements.txt
 4. **Установите зависимости:**
-    python src/main.py
+- python src/main.py
 
 ## 📋 Отчёты
 
