@@ -29,26 +29,31 @@
 
 ### Способ 1: Автоматическая установка (Windows)
 
-1. **Клонируйте репозиторий:**
-git clone https://github.com/SkkroLL/shop-candidate
-cd shop-candidate
-3. **Запустите скрипт установки:**
-setup.bat - Этот скрипт автоматически создаст виртуальное окружение и установит зависимости.
-4. Запустите приложение:
-run.bat
+1. **Клонируйте репозиторий:**                            
+  git clone https://github.com/SkkroLL/shop-candidate                  
+  cd shop-candidate
+  
+2. **Запустите скрипт установки:**            
+  setup.bat - Этот скрипт автоматически создаст виртуальное окружение и установит зависимости.
+  
+3. Запустите приложение:           
+  run.bat
 
 ### Способ 2: Ручная установка
 
 1. **Клонируйте репозиторий:**
-git clone https://github.com/SkkroLL/shop-candidate
-cd shop-candidate
-2. **Создайте и активируйте виртуальное окружение:**
-- python -m venv .venv
-- .venv\Scripts\activate
-3. **Установите зависимости:**
-- pip install -r requirements.txt
-4. **Установите зависимости:**
-- python src/main.py
+  git clone https://github.com/SkkroLL/shop-candidate                  
+  cd shop-candidate
+  
+2. **Создайте и активируйте виртуальное окружение:**                   
+  python -m venv .venv                
+  .venv\Scripts\activate
+
+4. **Установите зависимости:**             
+  pip install -r requirements.txt
+
+4. **Установите зависимости:**                
+  python src/main.py
 
 ## 📋 Отчёты
 
