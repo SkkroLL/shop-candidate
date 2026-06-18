@@ -18,43 +18,6 @@
 - **JSON** — хранение товаров и корзины
 - **logging** — логирование
 
-## 📁 Структура проекта
-shop-candidate/
-├── docs/
-│ ├── technical_specification.docx # Техническое задание
-│ ├── use_case_diagram.png # Диаграмма вариантов использования
-│ └── component_diagram.png # Диаграмма компонентов
-├── src/
-│ ├── data/
-│ │ └── products.json # Данные о товарах
-│ ├── Module1_Catalog/ # Модуль каталога
-│ │ └── catalog.py
-│ ├── Module2_Cart/ # Модуль корзины
-│ │ └── cart.py
-│ ├── Module3_Order/ # Модуль оформления заказа
-│ │ └── order.py
-│ ├── Module4_Admin/ # Модуль административной панели
-│ │ └── admin.py
-│ ├── main.py # Точка входа, GUI
-│ └── utils.py # Утилиты (логирование, работа с JSON)
-├── tests/
-│ ├── test_catalog.py # Юнит-тесты каталога
-│ ├── test_cart.py # Юнит-тесты корзины
-│ ├── test_order.py # Юнит-тесты заказа
-│ ├── test_admin.py # Юнит-тесты админки
-│ ├── test_integration.py # Интеграционные тесты
-│ └── test_report.md # Отчёт о ручном тестировании
-├── reports/
-│ ├── code_inspection.md # Отчёт об инспекции кода
-│ └── final_report.pdf # Финальный отчёт
-├── logs/ # Логи приложения
-│ └── app.log
-├── requirements.txt # Зависимости Python
-├── README.md # Инструкция по запуску
-├── .gitignore # Исключения для Git
-├── run.bat # (опционально) Скрипт для запуска на Windows
-└── setup.bat # (опционально) Скрипт для установки зависимостей
-
 ## ⚙️ Требования к системе
 
 - **Операционная система:** Windows, macOS или Linux
@@ -66,7 +29,9 @@ shop-candidate/
 
 ### Способ 1: Автоматическая установка (Windows)
 
-1. **Клонируйте репозиторий (см. шаг 1 выше)**
+1. **Клонируйте репозиторий:**
+    git clone https://github.com/SkkroLL/shop-candidate
+    cd shop-candidate
 2. **Запустите скрипт установки:**
     setup.bat - Этот скрипт автоматически создаст виртуальное окружение и установит зависимости.
 3. Запустите приложение:
