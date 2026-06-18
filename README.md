@@ -40,8 +40,8 @@
 ### Способ 2: Ручная установка
 
 1. **Клонируйте репозиторий:**
-- git clone https://github.com/SkkroLL/shop-candidate
-- cd shop-candidate
+git clone https://github.com/SkkroLL/shop-candidate
+cd shop-candidate
 2. **Создайте и активируйте виртуальное окружение:**
 - python -m venv .venv
 - .venv\Scripts\activate
