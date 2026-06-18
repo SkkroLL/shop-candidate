@@ -1,0 +1,133 @@
+{
+  "storeName": "КанцТовары",
+  "categories": [
+    {
+      "id": "cat_01",
+      "name": "Бумага",
+      "products": [
+        {
+          "id": "pr_001",
+          "name": "Бумага А4 80 г/м²",
+          "price": 350.0,
+          "stock": 100,
+          "description": "Пачка 500 листов",
+          "category_id": "cat_01"
+        },
+        {
+          "id": "pr_002",
+          "name": "Тетрадь 48 листов",
+          "price": 45.5,
+          "stock": 200,
+          "description": "в клетку",
+          "category_id": "cat_01"
+        },
+        {
+          "id": "pr_003",
+          "name": "Блокнот А5 на пружине",
+          "price": 120.0,
+          "stock": 80,
+          "description": "80 листов, клетка",
+          "category_id": "cat_01"
+        }
+      ]
+    },
+    {
+      "id": "cat_02",
+      "name": "Ручки",
+      "products": [
+        {
+          "id": "pr_004",
+          "name": "Ручка шариковая синяя",
+          "price": 15.0,
+          "stock": 500,
+          "description": "0.7 мм, корпус прозрачный",
+          "category_id": "cat_02"
+        },
+        {
+          "id": "pr_005",
+          "name": "Ручка гелевая черная",
+          "price": 25.0,
+          "stock": 300,
+          "description": "0.5 мм, резиновый грип",
+          "category_id": "cat_02"
+        },
+        {
+          "id": "pr_006",
+          "name": "Набор маркеров 6 цветов",
+          "price": 180.0,
+          "stock": 60,
+          "description": "для досок",
+          "category_id": "cat_02"
+        },
+        {
+          "id": "pr_013",
+          "name": "Золотая ручка",
+          "price": 10000.0,
+          "stock": 0,
+          "description": "Ручка с золотыми элементами на корпусе. Ходят слухи, что ей пользовался призедент одной сверхдержавы.",
+          "category_id": "cat_02"
+        }
+      ]
+    },
+    {
+      "id": "cat_03",
+      "name": "Офисные принадлежности",
+      "products": [
+        {
+          "id": "pr_007",
+          "name": "Степлер №24/6",
+          "price": 180.0,
+          "stock": 50,
+          "description": "металлический, чёрный",
+          "category_id": "cat_03"
+        },
+        {
+          "id": "pr_008",
+          "name": "Скотч прозрачный 50мм х 66м",
+          "price": 60.0,
+          "stock": 80,
+          "description": "универсальный",
+          "category_id": "cat_03"
+        },
+        {
+          "id": "pr_009",
+          "name": "Папка-регистратор",
+          "price": 95.0,
+          "stock": 120,
+          "description": "картон, 70 мм, синяя",
+          "category_id": "cat_03"
+        }
+      ]
+    },
+    {
+      "id": "cat_04",
+      "name": "Товары для творчества",
+      "products": [
+        {
+          "id": "pr_010",
+          "name": "Акварельные краски 12 цветов",
+          "price": 320.0,
+          "stock": 40,
+          "description": "в тубах, 10 мл",
+          "category_id": "cat_04"
+        },
+        {
+          "id": "pr_011",
+          "name": "Кисти набор 6 шт.",
+          "price": 210.0,
+          "stock": 60,
+          "description": "синтетика, разные размеры",
+          "category_id": "cat_04"
+        },
+        {
+          "id": "pr_012",
+          "name": "Пластилин 12 цветов",
+          "price": 150.0,
+          "stock": 70,
+          "description": "мягкий, в коробке",
+          "category_id": "cat_04"
+        }
+      ]
+    }
+  ]
+}
