@@ -30,8 +30,8 @@
 ### Способ 1: Автоматическая установка (Windows)
 
 1. **Клонируйте репозиторий:**
-    git clone https://github.com/SkkroLL/shop-candidate
-    cd shop-candidate
+   git clone https://github.com/SkkroLL/shop-candidate
+   cd shop-candidate
 2. **Запустите скрипт установки:**
     setup.bat - Этот скрипт автоматически создаст виртуальное окружение и установит зависимости.
 3. Запустите приложение:
